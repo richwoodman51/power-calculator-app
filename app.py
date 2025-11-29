@@ -5,8 +5,7 @@ from statsmodels.stats.power import TTestIndPower
 st.set_page_config(layout="wide", page_title="Power Calculator")
 
 # --- App Title and Description ---
-st.title("Interactive Power Calculator")
-st.write("Calculate the required sample size for a two-sample t-test.")
+st.title("Sample size for a two-sample t-test")
 
 # --- UI Layout ---
 st.divider() # Adds a horizontal line

@@ -1,7 +1,3 @@
-!pip install streamlit pyngrok statsmodels -q
-
-# Cell 2 (Updated with Calculation Logic)
-%%writefile app.py
 import streamlit as st
 # Import the power calculation function from statsmodels
 from statsmodels.stats.power import TTestIndPower
